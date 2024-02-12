@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Does docs.bsky.app still have the www. prefix?",
   description: "probably yes but click to find out",
+  metadataBase: new URL(
+    "https://does-docs.bsky.app-still-have-the-www-prefix.mozzius.dev"
+  ),
 };
 
 export default function RootLayout({
